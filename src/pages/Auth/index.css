@@ -1,0 +1,33 @@
+.log_container {
+  display: flex;
+  background-color: #f0f2f5;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.login_header {
+  color: #1877f2;
+}
+.log_form {
+  width: 50%;
+  height: 50vh;
+  max-width: 400px;
+
+  border: 1px solid #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1rem;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.newsection {
+  height: 1.5px;
+  background-color: #f0f2f5;
+  border: none;
+  width: 80%;
+}

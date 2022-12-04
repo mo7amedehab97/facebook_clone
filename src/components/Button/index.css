@@ -1,0 +1,38 @@
+.login_btn {
+  width: 80%;
+  background-color: #1877f2;
+  border: 1px solid #f0f2f5;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 14px 16px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.another_link {
+  width: 80%;
+  border-radius: 6px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #1877f2;
+}
+.signup_btn {
+  width: 80%;
+  background-color: #31a24c;
+  border: 1px solid #f0f2f5;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 14px 16px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
