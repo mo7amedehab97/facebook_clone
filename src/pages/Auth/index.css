@@ -1,8 +1,6 @@
 .log_container {
   display: flex;
-  background-color: #f0f2f5;
   height: 100vh;
-  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -11,9 +9,8 @@
 }
 .log_form {
   width: 50%;
-  height: 50vh;
-  max-width: 400px;
-
+  height: auto;
+  max-width: 500px;
   border: 1px solid #f0f2f5;
   display: flex;
   flex-direction: column;
@@ -30,4 +27,42 @@
   background-color: #f0f2f5;
   border: none;
   width: 80%;
+}
+.log_info {
+  width: 50%;
+  height: 50vh;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.log_info_holder p {
+  font-size: 25px;
+  line-height: 28px;
+  width: auto;
+}
+
+@media (max-width: 1050px) {
+  .log_container {
+    flex-direction: column;
+  }
+  .log_holder {
+    width: calc(100% - 2%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .log_info_holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .log_form {
+  }
 }
